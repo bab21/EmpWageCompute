@@ -14,6 +14,22 @@ public class EmpWageBuild{
 		Random rand=new Random();
 		int prs_abs=rand.nextInt(2);
 		
+		int empHrs=0;
+		int empWage=0;
+		int totalEmpwage=0;
+		int empCheck=(int)Math.floor(Math.random()*10)%2;
+		 
+		 switch(empCheck){
+			case IS_FULL_TIME:
+				empHrs=8;
+				break;
+			case IS_PART_TIME:
+				empHrs=4;
+				break;
+			default:
+				empHrs=0;
+		}
+		
 		
 	}
 }
