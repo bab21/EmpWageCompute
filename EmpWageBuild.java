@@ -31,5 +31,14 @@ public class EmpWageBuild{
 		}
 		
 		
+		for(int day=0;day<NUM_OF_WORKING_DAYS;day++)
+		{
+		empWage=empHrs*EMP_RATE_PER_HOUR;
+		totalEmpwage=totalEmpwage+empWage;
+		}
+		
+		System.out.println("toal wage: "+totalEmpwage);
+		
+		
 	}
 }
