@@ -6,6 +6,10 @@ public class EmpWageBuilder{
 		
 		System.out.println("Welcome to Employee Wage Computation");
 		
+		Random rand=new Random();
+		int prs_abs=rand.nextInt(2);
+		
+		
 	}
 }
 
